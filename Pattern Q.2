@@ -1,0 +1,42 @@
+public class main
+{
+	public static void main(String[] args)
+	{
+	    int y=1,m=4,g=4,p=5;
+	    for(int d=1;d<=9;d++)
+	    {
+		System.out.print("*");
+	}
+	System.out.println();
+	for(int a=1;a<=4;a++)
+	{
+	    for(int b=g;b>=1;b--)
+	    System.out.print("*");
+	    for(int i=1;i<=y;i++)
+	    System.out.print(" ");
+	    for(int c=m;c>=1;c--)
+	    System.out.print("*");
+	    System.out.println();
+	    y=y+2;
+	    m--;
+	    g--;
+	}
+	for(int a=2;a<=4;a++)
+	{
+	    for(int b=1;b<=a;b++)
+	    System.out.print("*");
+	    for(int i=p;i>=1;i--)
+	    System.out.print(" ");
+	    p=p-2;
+	    for(int e=1;e<=a;e++)
+	    System.out.print("*");
+	    System.out.println();
+	}
+	for(int f=9;f>=1;f--)
+	System.out.print("*");
+	}
+}
+
+
+	
+
